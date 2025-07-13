@@ -10,3 +10,10 @@
   --color-tahiti: #3ab7bf;
   --color-bermuda: #78dcca;
 }
+
+@layer components {
+  
+        nav {
+            @apply bg-pinkk w-full h-14 top-0 sticky relative z-20
+      }
+}

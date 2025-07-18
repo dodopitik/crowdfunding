@@ -12,8 +12,14 @@
 }
 
 @layer components {
-  
+
+          body {
+            @apply bg-slate-100 font-poppins;
+        }
+
         nav {
-            @apply bg-pinkk w-full h-14 top-0 sticky relative z-20
+            @apply bg-pinkk w-full h-14 top-0 sticky relative z-20;
       }
 }
+
+
